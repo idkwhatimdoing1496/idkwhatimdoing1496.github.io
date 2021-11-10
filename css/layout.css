@@ -94,9 +94,10 @@ header{
     transition: .4s;
 }
 
-
-
-
+.height{
+    background: lightgray;
+    height: 100vh;
+}
 
 
 
