@@ -1,0 +1,155 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*SCRIPT*/
+.hamburger{
+    display: none;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.background{
+    background: url("/img/background.png") center bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vw 2.5vw;
+}
+    /*LOGO*/
+.logo{
+    text-align: center;
+}
+
+.logoText{
+    text-decoration: none;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+    /*NAVIGATION*/
+.navIn {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navButton{
+    margin-right: 2vw;
+    color: black;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+.logoText:hover,
+.navButton:hover{
+    color: white;
+    transition: .4s;
+}
+.navButtonFooter:hover,
+.logoTextFooter:hover,
+.fab:hover{
+    color: #2c2c2c;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 5vw;
+    background: black;
+}
+
+.navFooter{
+    list-style: none;
+    margin: .4vw 0;
+}
+.navButtonFooter{
+    color: white;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logoFooter{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logoTextFooter{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sociallink{
+    display: flex;
+}
+.fab{
+    margin: 0 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+.sociallink > li{
+    list-style: none;
+}
+.licenseplate{
+    background: black;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
