@@ -1,0 +1,33 @@
+.Banner {
+    height: 100vh;
+    background: center bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.BannerText {
+    position: absolute;
+    top: 24vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+}
+
+@Media (max-width: 768px) {
+    .BannerText {
+        top: 50vw;
+        font-size: 10vw;
+    }
+}

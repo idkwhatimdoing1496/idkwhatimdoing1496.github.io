@@ -1,0 +1,18 @@
+.Logo {
+    text-align: center;
+}
+
+.Logo > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+@Media (max-width: 768px) {
+    .Logo {
+        margin: 15px;
+    }
+}

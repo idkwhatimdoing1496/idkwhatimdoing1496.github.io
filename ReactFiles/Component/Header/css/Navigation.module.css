@@ -1,0 +1,62 @@
+.NavIn {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.NavButton > a {
+    margin-right: 2vw;
+    color: black;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.MobileNav {
+    display: none;
+}
+
+@Media (max-width: 768px) {
+    .Navigation {
+        display: none;
+    }
+
+    .MobileNav {
+        display: flex;
+        align-items: start;
+        width: 100vw;
+        z-index: 4;
+    }
+
+    .Hamburger {
+        position: fixed;
+        right: 15px;
+        top: 13px;
+        cursor: pointer;
+        z-index: 4;
+    }
+
+    .NavIn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+
+    .NavButton > a {
+        font-size: 10vw;
+    }
+
+    .NavButton {
+        padding: 50px 0;
+    }
+}

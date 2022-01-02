@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    position: absolute;
+    width: 96vw;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw 2.5vw;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 95vw;
+        height: auto;
+        align-items: start;
+        margin: 0;
+        padding: 0;
+    }
+}

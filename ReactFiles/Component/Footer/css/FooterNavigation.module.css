@@ -1,0 +1,34 @@
+.FooterNavIn {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+.FooterNavButton > a {
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .FooterNavIn {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .FooterNavButton > a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .FooterNavButton:last-child {
+        margin-bottom: 4vw;
+    }
+}

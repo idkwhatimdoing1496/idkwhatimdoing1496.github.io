@@ -1,0 +1,29 @@
+.SeasonsPage {
+    padding-top: 7vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+.SeasonsListTitle {
+    font-size: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SeasonsListDesc {
+    font-size: 28px;
+}
+
+@Media (max-width: 768px) {
+    .SeasonsPage {
+        padding-top: 100px;
+    }
+
+    .SeasonsListDesc {
+        font-size: 7vw;
+    }
+}

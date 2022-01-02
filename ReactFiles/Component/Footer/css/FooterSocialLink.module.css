@@ -1,0 +1,24 @@
+.FooterSocialLink {
+    display: flex;
+}
+
+.NavButtonSocialLink {
+    list-style: none;
+}
+
+.NavButtonSocialLink > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .FooterSocialLink {
+        margin: 4vw 0;
+        padding: 0;
+    }
+
+    .NavButtonSocialLink:last-child > a {
+        margin-right: 0;
+    }
+}

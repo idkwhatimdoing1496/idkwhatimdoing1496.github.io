@@ -1,0 +1,44 @@
+.Title {
+    font-size: 60px;
+    color: white;
+    background: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.FormTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.GoogleFormLink {
+    padding: 40px;
+}
+
+.GoogleFormButton {
+    color: white;
+    text-decoration: none;
+    border: white 4px solid;
+    padding: 5px 10px;
+    box-shadow: 0 0 15px white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+@Media (max-width: 768px) {
+    .GoogleFormButton {
+        font-size: 6vw;
+    }
+
+    .FormTitle {
+        height: 30vh;
+    }
+
+    .Title {
+        font-size: 12vw;
+    }
+}

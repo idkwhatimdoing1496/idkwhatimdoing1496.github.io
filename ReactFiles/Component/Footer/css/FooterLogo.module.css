@@ -1,0 +1,20 @@
+.Logo {
+    text-align: center;
+}
+
+.Logo > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .Logo {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+}

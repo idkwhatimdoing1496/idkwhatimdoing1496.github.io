@@ -1,0 +1,13 @@
+.PhotosPage {
+    padding-top: 5vw;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: gray;
+}
+
+.SeasonName > img {
+    width: 23vw;
+    padding: 15px;
+}
